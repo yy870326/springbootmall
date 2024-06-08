@@ -16,12 +16,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.zhe.mall.constant.ProductCategory;
+import com.zhe.mall.dto.ProductQueryParams;
+import com.zhe.mall.dto.ProductRequest;
 import com.zhe.mall.model.Product;
 import com.zhe.mall.service.ProductService;
 import com.zhe.mall.util.Page;
 
-import dto.ProductQueryParams;
-import dto.ProductRequest;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;

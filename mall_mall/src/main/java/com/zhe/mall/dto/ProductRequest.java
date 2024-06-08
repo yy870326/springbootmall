@@ -1,4 +1,4 @@
-package dto;
+package com.zhe.mall.dto;
 
 import java.util.Date;
 

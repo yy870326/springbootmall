@@ -12,8 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.zhe.mall.constant.ProductCategory;
-
-import dto.ProductRequest;
+import com.zhe.mall.dto.ProductRequest;
 
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;

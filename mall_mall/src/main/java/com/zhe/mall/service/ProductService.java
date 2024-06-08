@@ -4,10 +4,9 @@ import java.util.List;
 
 
 import com.zhe.mall.constant.ProductCategory;
+import com.zhe.mall.dto.ProductQueryParams;
+import com.zhe.mall.dto.ProductRequest;
 import com.zhe.mall.model.Product;
-
-import dto.ProductQueryParams;
-import dto.ProductRequest;
 
 public interface ProductService {
 	List<Product> getProducts(ProductQueryParams params);

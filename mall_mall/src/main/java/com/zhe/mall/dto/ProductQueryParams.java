@@ -1,4 +1,4 @@
-package dto;
+package com.zhe.mall.dto;
 
 import com.zhe.mall.constant.ProductCategory;
 
